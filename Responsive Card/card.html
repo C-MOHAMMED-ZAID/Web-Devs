@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Card Component</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <style>
+        .card-image img {
+            /* max-height: 200px; Set a maximum height for the image */
+            object-fit: cover; /* Ensure the image covers the area without distortion */
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="tanjiro.png" alt="Placeholder Image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Tanjiro</p>
+                            <p class="subtitle is-6">“You Have No Choice But To Go on Living."</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        “No matter how many people you may lose, you have no choice but to go on living -- no matter how devastating the blows, maybe.“
+                        <br>
+                        <time datetime="2024-09-02">September 2, 2024</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
