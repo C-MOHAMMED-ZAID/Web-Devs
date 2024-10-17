@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Navigation Bar</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <div class="logo">Innovative Solutions</div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links hide">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Innovating Your Digital Experience</h1><br>
+        <p>Your trusted partner in digital transformation.</p><br>
+        <button onclick="window.location.href='#services'">Get Started</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2><br>
+        <p>We are dedicated to providing innovative solutions that drive success for our clients.</p><br>
+        <img src="gettyimages-1352603244-612x612.jpg" alt="Our Team" />
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Web Design</h3><br>
+                <p>Creating stunning and functional websites.</p>
+            </div>
+            <div class="card">
+                <h3>SEO</h3><br>
+                <p>Optimizing your site for better visibility.</p>
+            </div>
+            <div class="card">
+                <h3>Digital Marketing</h3><br>
+                <p>Helping you reach your target audience effectively.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Our Gallery</h2><br>
+        <div class="portfolio-gallery">
+            <!-- Replace with actual project images -->
+            <img src="gettyimages-616902766-612x612.jpg" alt="Project 1" />
+            <img src="gettyimages-1010593510-612x612.jpg" alt="Project 2" />
+            <img src="gettyimages-1400563623-612x612.jpg" alt="Project 3" />
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2><br>
+        <blockquote>"MyCompany helped us achieve our goals!" - Client A</blockquote><br>
+        <blockquote>"Their team is professional and dedicated." - Client B</blockquote>
+    </section>
+
+
+
+    <footer>
+        &copy; 2024 MyCompany. All rights reserved.
+        | Follow us on 
+        <!-- Add social media links -->
+        Facebook | Twitter | LinkedIn
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

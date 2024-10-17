@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080808;
+    color: white;
+}
+
+header {
+    background-color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+.hero {
+    background-image: url('gettyimages-147456329-612x612.jpg'); 
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+   font-size: 48px; 
+}
+
+.hero button {
+   padding: 10px 20px; 
+   background-color: #007BFF; 
+   color: white; 
+   border: none; 
+   cursor: pointer; 
+   border-radius: 5px; 
+}
+
+#about,
+#services,
+#portfolio,
+#testimonials,
+#blog,
+#contact {
+   padding: 40px 20px; 
+   text-align: center; 
+}
+
+.service-cards {
+   display: flex; 
+   justify-content: space-around; 
+   flex-wrap: wrap; 
+}
+
+.card {
+   border: 1px solid #ccc; 
+   border-radius: 5px; 
+   padding: 20px; 
+   margin: 10px; 
+   width: calc(30% - 40px); 
+}
+
+.portfolio-gallery img {
+   width: calc(33% - 20px); 
+   margin-bottom: 15px; 
+}
+
+footer {
+   background-color: #333; 
+   color: white; 
+   text-align: center; 
+   padding: 10px 0; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+   .nav-links {
+       display: none; 
+       flex-direction: column;
+       position: absolute; 
+       top: 60px; 
+       left: 0; 
+       width: 100%; 
+       background-color: #333; 
+       z-index: 1; 
+   }
+
+   .nav-links.show {
+       display: flex; 
+   }
+
+   .menu-icon {
+       display: flex; 
+   }
+
+   .nav-links li {
+       display: block; 
+       text-align: center; 
+       width: 100%; 
+   }
+
+   .service-cards .card,
+   .portfolio-gallery img {
+       width: calc(100% - 40px);
+       margin-bottom: 15px; 
+   }
+}
