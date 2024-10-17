@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide active">
+                <img src="bmw_car_bumper_191131_1280x720.jpg" alt="Image 1" />
+            </div>
+            <div class="slide">
+                <img src="car_gray_wet_147750_1280x720.jpg" alt="Image 2" />
+            </div>
+            <div class="slide">
+                <img src="car_red_sports_car_142598_1280x720.jpg" alt="Image 3" />
+            </div>
+            <div class="slide">
+                <img src="nissan_gtr_nissan_sportscar_139668_1280x720.jpg" alt="Image 4" />
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
