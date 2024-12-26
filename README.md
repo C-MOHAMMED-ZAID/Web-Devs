@@ -11,7 +11,7 @@ Welcome to my **Web Projects Repository**! This repository contains multiple web
 ## 🚀 **Projects Overview**
 
 ### 1. **Alert Button Project**
-https://github.com/C-MOHAMMED-ZAID/Web-Projects/blob/main/Alert%20Button/alert.html
+https://github.com/C-MOHAMMED-ZAID/Web-Projects/AlertButton/index.html
 A simple project where clicking a button triggers an alert message. This helps you understand basic DOM manipulation and event handling in JavaScript.
 
 ---
