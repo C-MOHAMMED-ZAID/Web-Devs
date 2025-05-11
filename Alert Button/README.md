@@ -20,15 +20,6 @@ This project was created as part of a learning journey to understand basic DOM m
 - Clean and simple UI using basic HTML/CSS
 - Easy to understand for beginners
 
-## 📁 Folder Structure
-```
-alert-button-project/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
 ---
 
 This is a beginner-level project created solely for educational purposes. 🎓
