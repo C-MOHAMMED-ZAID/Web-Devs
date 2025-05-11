@@ -4,11 +4,6 @@ This is a straightforward, beginner-friendly web page project built using HTML a
 
 ---
 
-## 🚀 Demo
-
-![Simple Web Page Screenshot](https://via.placeholder.com/800x350?text=Simple+Web+Page+Demo)
-
----
 
 ## ✨ Features
 
