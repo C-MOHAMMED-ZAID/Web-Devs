@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Matrix Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="welcome-screen">
+        <div class="hero">
+            <h1>Memory Matrix Pro</h1>
+            <p class="tagline">Challenge Your Cognitive Agility</p>
+            <button class="cta-btn">Begin Challenge ➔</button>
+        </div>
+        
+        <div class="instructions">
+            <div class="instruction-card">
+                <h2>🧠 How to Engage</h2>
+                <p class="instruction-text">
+                    Discover matching pairs within the time limit to maximize your score.
+                    Select from various cognitive categories and track your progress.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-selection hidden">
+        <h2>Select Cognitive Domain</h2>
+        <div class="category-grid">
+            <button data-category="astro">🪐 Celestial Bodies</button>
+            <button data-category="geo">🗺️ Geographic Icons</button>
+            <button data-category="auto">🏎️ Automotive</button>
+            <button data-category="flora">🌿 Botanical</button>
+            <button data-category="tech">💻 Technology</button>
+        </div>
+    </section>
+
+    <section class="game-interface hidden">
+        <div class="game-controls">
+            <div class="hud">
+                <div class="hud-item">
+                    <span class="hud-label">SCORE</span>
+                    <span class="hud-value" id="score">0</span>
+                </div>
+                <div class="hud-item">
+                    <span class="hud-label">TIME</span>
+                    <span class="hud-value" id="timer">30</span>
+                </div>
+            </div>
+            <button class="theme-toggle">🌗 Toggle Illumination</button>
+        </div>
+        
+        <div class="game-grid"></div>
+        
+        <div class="outcome-modal hidden">
+            <h2 class="outcome-title"></h2>
+            <div class="outcome-stats">
+                <p>Final Score: <span id="final-score">0</span></p>
+                <p>Matched Pairs: <span id="total-matches">0</span></p>
+            </div>
+            <div class="action-panel">
+                <button class="save-state">💾 Preserve Progress</button>
+                <button class="reset-game">🔄 New Session</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
