@@ -4,14 +4,6 @@ A clean, interactive, and beginner-friendly calculator built with HTML, CSS, and
 
 ---
 
-## 🚀 Demo
-
-![Calculator Screenshot](https://via.placeholder.com/800x350?text=Simple+Calculator+Demo)
-
-Try it live: [Demo Link](#) <!-- Replace with your live demo URL if available -->
-
----
-
 ## ✨ Features
 
 - Basic arithmetic: addition, subtraction, multiplication, and division
