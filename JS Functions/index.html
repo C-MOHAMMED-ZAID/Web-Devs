@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Functions</h1>
+        
+        <!-- ATM Withdrawal -->
+        <div class="section">
+            <h2>ATM Withdrawal</h2>
+            <form id="atmForm">
+                <input type="number" id="balance" placeholder="Balance">
+                <input type="number" id="amount" placeholder="Amount">
+                <input type="number" id="pin" placeholder="PIN">
+                <input type="number" id="enteredPin" placeholder="Entered PIN">
+                <button type="submit">Withdraw</button>
+            </form>
+            <p id="atmResult"></p>
+        </div>
+        
+        <!-- Online Shopping -->
+        <div class="section">
+            <h2>Online Shopping</h2>
+            <form id="shoppingForm">
+                <input type="number" id="orderAmount" placeholder="Order Amount">
+                <button type="submit">Calculate Final Amount</button>
+            </form>
+            <p id="shoppingResult"></p>
+        </div>
+        
+        <!-- Student Grading System -->
+        <div class="section">
+            <h2>Student Grading System</h2>
+            <form id="gradingForm">
+                <input type="number" id="marks" placeholder="Marks">
+                <input type="number" id="attendance" placeholder="Attendance (%)">
+                <button type="submit">Calculate Grade</button>
+            </form>
+            <p id="gradingResult"></p>
+        </div>
+        
+        <!-- Smart Traffic Light -->
+        <div class="section">
+            <h2>Smart Traffic Light</h2>
+            <form id="trafficForm">
+                <select id="density">
+                    <option value="Heavy Traffic">Heavy Traffic</option>
+                    <option value="Moderate Traffic">Moderate Traffic</option>
+                    <option value="Light Traffic">Light Traffic</option>
+                </select>
+                <button type="submit">Calculate Green Time</button>
+            </form>
+            <p id="trafficResult"></p>
+        </div>
+        
+        <!-- Movie Ticket Pricing -->
+        <div class="section">
+            <h2>Movie Ticket Pricing</h2>
+            <form id="movieForm">
+                <input type="number" id="age" placeholder="Age">
+                <input type="number" id="showTime" placeholder="Show Time (24-hour format)">
+                <button type="submit">Calculate Ticket Price</button>
+            </form>
+            <p id="movieResult"></p>
+        </div>
+        
+        <!-- Job Application Filter -->
+        <div class="section">
+            <h2>Job Application Filter</h2>
+            <form id="jobForm">
+                <input type="number" id="jobAge" placeholder="Age">
+                <input type="number" id="experience" placeholder="Experience (years)">
+                <select id="qualification">
+                    <option value="Bachelor's Degree">Bachelor's Degree</option>
+                    <option value="Other">Other</option>
+                </select>
+                <button type="submit">Check Eligibility</button>
+            </form>
+            <p id="jobResult"></p>
+        </div>
+        
+        <!-- E-commerce Coupon Redemption -->
+        <div class="section">
+            <h2>E-commerce Coupon Redemption</h2>
+            <form id="couponForm">
+                <input type="number" id="orderAmountCoupon" placeholder="Order Amount">
+                <select id="couponCode">
+                    <option value="DISCOUNT10">DISCOUNT10</option>
+                    <option value="FREESHIP">FREESHIP</option>
+                </select>
+                <button type="submit">Apply Coupon</button>
+            </form>
+            <p id="couponResult"></p>
+        </div>
+        
+        <!-- Fitness Membership Plan -->
+        <div class="section">
+            <h2>Fitness Membership Plan</h2>
+            <form id="fitnessForm">
+                <select id="planType">
+                    <option value="Basic">Basic</option>
+                    <option value="Premium">Premium</option>
+                    <option value="VIP">VIP</option>
+                </select>
+                <input type="checkbox" id="wantsTrainer" name="wantsTrainer"> Wants Trainer
+                <input type="checkbox" id="wantsDietPlan" name="wantsDietPlan"> Wants Diet Plan
+                <button type="submit">Choose Plan</button>
+            </form>
+            <p id="fitnessResult"></p>
+        </div>
+        
+        <!-- Electricity Bill Calculation -->
+        <div class="section">
+            <h2>Electricity Bill Calculation</h2>
+            <form id="electricityForm">
+                <input type="number" id="units" placeholder="Units Consumed">
+                <select id="timeOfDay">
+                    <option value="Normal hours">Normal hours</option>
+                    <option value="Peak hours">Peak hours</option>
+                </select>
+                <button type="submit">Calculate Bill</button>
+            </form>
+            <p id="electricityResult"></p>
+        </div>
+        
+        <!-- Flight Ticket Booking -->
+        <div class="section">
+            <h2>Flight Ticket Booking</h2>
+            <form id="flightForm">
+                <select id="classType">
+                    <option value="Economy">Economy</option>
+                    <option value="Business">Business</option>
+                    <option value="First">First</option>
+                </select>
+                <input type="number" id="luggageWeight" placeholder="Luggage Weight (kg)">
+                <input type="checkbox" id="isStudent" name="isStudent"> Student
+                <input type="checkbox" id="isSenior" name="isSenior"> Senior
+                <button type="submit">Calculate Fare</button>
+            </form>
+            <p id="flightResult"></p>
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
