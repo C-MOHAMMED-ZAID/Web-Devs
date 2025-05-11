@@ -4,13 +4,6 @@ A fully responsive, interactive YouTube clone that mimics the core features and 
 
 ---
 
-## 🚀 Demo
-
-![YouTube Clone Screenshot](https://via.placeholder.com/800x350?text=YouTube+Clone+Demo)
-
-Try it live: [Demo Link](#) <!-- Replace with your live demo URL if available -->
-
----
 
 ## ✨ Features
 
