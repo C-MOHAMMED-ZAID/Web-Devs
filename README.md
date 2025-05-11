@@ -1,6 +1,6 @@
-# Web Development Learning Projects
+# Web Development Projects
 
-Welcome to the **Web Development Learning Projects** repository!  
+Welcome to the **Web Development Projects** repository!  
 This repository is a curated collection of hands-on web projects designed to help anyone-from beginners to intermediate developers-practice, understand, and master the fundamentals of web development. Each project explores a different concept or UI component, offering a practical way to learn HTML, CSS, JavaScript, and modern web design techniques.
 
 ---
