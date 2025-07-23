@@ -1,6 +1,6 @@
 # 🎬 YouTube Clone
 
-A fully responsive, interactive YouTube clone that mimics the core features and design of the real YouTube platform. Built with [HTML, CSS, JavaScript] (or React/Next.js if you used those), this project is an excellent showcase of front-end development skills, UI/UX design, and API integration. The main aim of this project is to learn how to structure, style, and add functionality to a complex, real-world web application.
+A fully responsive, interactive YouTube clone that mimics the core features and design of the real YouTube platform. Built with HTML, CSS, JavaScript, this project is an excellent showcase of front-end development skills, UI/UX design, and API integration. The main aim of this project is to learn how to structure, style, and add functionality to a complex, real-world web application.
 
 ---
 
